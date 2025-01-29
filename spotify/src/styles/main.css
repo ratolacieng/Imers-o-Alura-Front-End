@@ -1,0 +1,141 @@
+/* PESQUISA */
+.main-container{
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 320px;
+    margin-right: 56px;
+}
+
+.header__navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: var(--background-color-2);
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.arrow-left{
+    margin-right: 1.25rem;
+    padding: 4px 1px 0 0;
+}
+
+.arrow-left, .arrow-right{
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    padding: 4px 0 0 1px;
+    margin-right: 1.25rem;
+    transition: .5s;
+}
+
+.arrow-right:hover, .arrow-left:hover{
+    background: #232323;
+}
+
+.header__search{
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    background-color: #242424;
+    border-radius: 500px;
+    border: 1px solid transparent;
+    transition: .5s;
+}
+
+.header__search label{
+    cursor: pointer;
+    position: relative;
+}
+
+.header__search:hover{
+    border: 1px solid #fff;
+}
+
+.header__search img{
+    width: 16px;
+    height: 16px;
+    margin-left: 20px;
+}
+
+.header__search input{
+    background: transparent;
+    border: none;
+    padding: 0px 24px 0 12px;
+    color: #fff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    outline: none;
+    white-space: nowrap;
+}
+
+.header__login{
+    display: flex;
+    align-items: center;
+}
+
+.header__login .subscribe{
+    color: var(--font-color-2);
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+    transition: .5s;
+}
+
+.header__login .subscribe:hover{
+    color: var(--font-color-1);
+}
+
+.header__login .login{
+    width: 100px;
+    height: 48px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+    transition: .5s;
+}
+
+.header__login .login:hover{
+    transform: scale(1.05);
+}
+
+/*PLAYLIST*/
+.playlist-container{
+    height: 70vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: var(--background-color-2);
+}
+
+.playlist{
+    margin: 24px;
+}
+
+#greeting{
+    color: var(--font-color-1);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.session{
+    color: var(--font-color-1);
+    font-size: 24px;
+    font-weight: 700;
+}
